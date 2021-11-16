@@ -1,4 +1,4 @@
-jackpot_bot
+### jackpot_bot
 Slot Machine Mini Game in Slack - just for fun.
 
 ### Usage
