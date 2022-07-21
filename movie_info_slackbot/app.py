@@ -12,7 +12,7 @@ SLACK_BOT_TOKEN = os.environ.get('SLACK_BOT_TOKEN_DEMO')
 SLACK_APP_TOKEN = os.environ.get('SLACK_APP_TOKEN_DEMO')
 SIGNING_SECRET = os.environ.get('SLACK_SIGNING_SECRET_DEMO')
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.ERROR)
 
 app = App(
     token=SLACK_BOT_TOKEN,
