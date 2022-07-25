@@ -95,7 +95,7 @@ def movie_info_message_view(movie_info: dict) -> list:
             ),
             accessory=ImageElement(
                 image_url=f'{MOVIE_IMAGE_BASE_URL}{movie_info["poster_path"]}',
-                alt_text=movie_info['tagline']
+                alt_text=movie_info['tagline'] or 'Alt Text Default.'
             )
         ).to_dict()
     ]
